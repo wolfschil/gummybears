@@ -1,1 +1,10 @@
-/* Enter your Styles below! */
+body{
+	background-image: url("../all_bears.jpg");
+	background-size: 100%;
+	background-position: ;
+	background-repeat: no-repeat;
+}
+
+footer{
+	position: text;
+}
