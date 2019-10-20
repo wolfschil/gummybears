@@ -1,4 +1,5 @@
-body{
+
+.home{
 	background-image: url("../all_bears.jpg");
 	background-size: 100%;
 	background-position: ;
@@ -7,4 +8,24 @@ body{
 
 footer{
 	position: text;
+}
+
+.blue{
+	background-image: url("../IMG_5283.jpg");
+	background-size: 120%;
+	background-position:center;
+	background-repeat: no-repeat;
+
+}
+
+h1{
+
+}
+
+p{
+	text-align:left;
+	margin-left:30%;
+	margin-right:30%;
+	margin-bottom:50%;
+	margin-top:35%; 
 }
