@@ -18,6 +18,26 @@ footer{
 
 }
 
+.green{
+	background-image: url("../IMG_5275.jpg");
+	background-size: 100%;
+	background-position:center-top;
+	background-repeat: no-repeat;
+}
+
+.red{
+	background-image: url("../red.jpg");
+	background-size: 100%;
+	background-position:center-top;
+	background-repeat: no-repeat;
+}
+.yellow{
+	background-image: url("../yellow.jpg");
+	background-size: 100%;
+	background-position:center-top;
+	background-repeat: no-repeat;
+}
+
 h1{
 	text-align:center;
 	margin-top:15%;
@@ -35,11 +55,15 @@ p{
 	margin-bottom:50%;
 	margin-top:2%; 
 	font-family:"Agenda", Geneva, sans-serif;
-	color:#000064;
+	
 }
 
 .logo {
 padding:10px;
+}
+
+.green-type{
+	color:#006400;
 }
 
 
