@@ -12,13 +12,19 @@ footer{
 
 .blue{
 	background-image: url("../IMG_5283.jpg");
-	background-size: 120%;
-	background-position:center;
+	background-size: 100%;
+	background-position:center-top;
 	background-repeat: no-repeat;
 
 }
 
 h1{
+	text-align:center;
+	margin-top:15%;
+	font-family:"Agenda", Geneva, sans-serif;
+	font-size:30px;
+	font-style:black;
+	color:#000064;
 
 }
 
@@ -27,5 +33,28 @@ p{
 	margin-left:30%;
 	margin-right:30%;
 	margin-bottom:50%;
-	margin-top:35%; 
+	margin-top:2%; 
+	font-family:"Agenda", Geneva, sans-serif;
+	color:#000064;
 }
+
+.logo {
+padding:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
