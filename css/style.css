@@ -1,6 +1,6 @@
 
 .home{
-	background-image: url("../all_bears.jpg");
+	background-image: url("../photos/all_bears.jpg");
 	background-size: 100%;
 	background-position: ;
 	background-repeat: no-repeat;
@@ -17,7 +17,7 @@ footer{
 }
 
 .blue{
-	background-image: url("../IMG_5283.jpg");
+	background-image: url("../photos/IMG_5283.jpg");
 	background-size: 100%;
 	background-position:center-top;
 	background-repeat: no-repeat;
@@ -25,20 +25,20 @@ footer{
 }
 
 .green{
-	background-image: url("../IMG_5275.jpg");
+	background-image: url("../photos/IMG_5275.jpg");
 	background-size: 100%;
 	background-position:center-top;
 	background-repeat: no-repeat;
 }
 
 .red{
-	background-image: url("../red.jpg");
+	background-image: url("../photos/red.jpg");
 	background-size: 100%;
 	background-position:center-top;
 	background-repeat: no-repeat;
 }
 .yellow{
-	background-image: url("../yellow.jpg");
+	background-image: url("../photos/yellow.jpg");
 	background-size: 100%;
 	background-position:center-top;
 	background-repeat: no-repeat;
@@ -68,6 +68,9 @@ font-style: normal;
 
 .logo {
 padding:10px;
+}
+.logo img{
+
 }
 
 .green-type{
