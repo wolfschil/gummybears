@@ -73,17 +73,14 @@ padding:10px;
 
 }
 
-.green-type{
-	color:#006400;
-}
 
 nav {
   
-  font-family: agenda, sans-serif;
+  	font-family: agenda, sans-serif;
     font-weight: 500;
     width: 100%;
 	text-align:center;
-  padding-left:10%;
+  	padding-left:10%;
     padding-right:10%;
     padding-top:1%;
     background-color:red;
@@ -98,9 +95,62 @@ nav {
  
  }
 
+.blue-type{
+	animation-name: bounceintop;
+	animation-duration: 1s;
+}
 
+.green-type{
+	animation-name: bounceintop;
+	animation-duration: 1s;
+}
 
+.red-type{
+	animation-name: bounceintop;
+	animation-duration: 1s;
+}
 
+.yellow-type{
+	animation-name: bounceintop;
+	animation-duration: 1s;
+}
+
+@keyframes bounceintop {
+  0% {
+    transform: translateY(-500px);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  38% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  55% {
+    transform: translateY(-65px);
+    animation-timing-function: ease-in;
+  }
+  72% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+  }
+  81% {
+    transform: translateY(-28px);
+    animation-timing-function: ease-in;
+  }
+  90% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+  }
+  95% {
+    transform: translateY(-8px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+  }
+}
 
 
 
