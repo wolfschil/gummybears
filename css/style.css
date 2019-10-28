@@ -66,7 +66,7 @@ font-family: agenda,sans-serif;
 font-weight: 500;
 font-style: normal;
 	line-height:115%;
-	font-size:2vw;
+	font-size:1.8vw;
 
 }
 
@@ -94,6 +94,8 @@ nav {
     padding-top:1%;
     border:10px;
     text-decoration: none;
+    	animation-name: slideinleft;
+	animation-duration: 1s;
  }
 
 a{
@@ -173,7 +175,16 @@ a:hover{
   }
 }
 
-
+@keyframes slideinleft {
+  0% {
+    transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
 
 
 
